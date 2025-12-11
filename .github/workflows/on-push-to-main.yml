@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   build:
-    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nestjs-build.yml@v1.9.2
+    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nestjs-build.yml@v1.10.0
     with:
       gh_release_mode: "yes"
     secrets: inherit
