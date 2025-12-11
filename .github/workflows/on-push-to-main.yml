@@ -13,5 +13,5 @@ jobs:
   build-release:
     uses: Stamper-Labs/core-flows/.github/workflows/yarn-nestjs-build.yml@v1.9.0
     with:
-      release-mode: "yes"
+      release_mode: "yes"
     secrets: inherit
