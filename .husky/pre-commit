@@ -1,1 +1,1 @@
-yarn lint && yarn test:unit:cov
+yarn lint && yarn format:check && yarn test:unit:cov
