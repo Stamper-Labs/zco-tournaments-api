@@ -15,3 +15,6 @@ jobs:
     with:
       gh_release_mode: "yes"
     secrets: inherit
+
+  release:
+    uses: Stamper-Labs/core-flows/.github/workflows/release-dhub-pipe.yml@v1.11.0
