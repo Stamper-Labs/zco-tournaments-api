@@ -17,5 +17,6 @@ jobs:
     secrets: inherit
 
   release:
+    needs: build
     uses: Stamper-Labs/core-flows/.github/workflows/dockerize-pipe.yml@v1.11.1
     secrets: inherit
