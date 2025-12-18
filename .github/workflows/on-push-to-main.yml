@@ -11,12 +11,12 @@ permissions:
 
 jobs:
   build:
-    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-build-pipe.yml@v1.13.1
+    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-build-pipe.yml@v1.13.2
     with:
       gh_release_mode: "yes"
     secrets: inherit
 
   release:
     needs: build
-    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-dockerize-pipe.yml@v1.13.1
+    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-dockerize-pipe.yml@v1.13.2
     secrets: inherit
