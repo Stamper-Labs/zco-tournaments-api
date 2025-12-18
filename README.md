@@ -5,7 +5,7 @@ Provides a REST API to create, query, update and delete tournaments
 ## Project setup
 
 * Install nodejs 22
-* Install yarn 1.22.22
+* Install yarn 1.22.2
 
 ```bash
 $ yarn install
