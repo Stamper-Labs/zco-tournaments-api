@@ -11,5 +11,7 @@ permissions:
 
 jobs:
   build:
-    uses: Stamper-Labs/core-flows/actions/yarn-nodejs-build@main
-    secrets: inherit
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Build nodejs app
+        uses: Stamper-Labs/core-flows/actions/yarn-nodejs-build@main
