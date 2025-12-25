@@ -11,7 +11,4 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
-    steps:
-      - name: Build nodejs app
-        uses: Stamper-Labs/core-flows/actions/yarn-nodejs-build@main
+    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-build-pipe.yml@main
