@@ -10,5 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  build:
-    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-build-pipe.yml@main
+  release-api:
+    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-build-pipe.yml@2.1.0
+    with:
+      release_mode: "enabled"
