@@ -1,3 +1,21 @@
+# [1.1.0](https://github.com/Stamper-Labs/zco-tournaments-api/compare/v1.0.0...v1.1.0) (2025-12-27)
+
+
+### Bug Fixes
+
+* add env variable ([92279b3](https://github.com/Stamper-Labs/zco-tournaments-api/commit/92279b3c8aed6f61afc5deebb566353008508d1e))
+* add secrets ([fd959d3](https://github.com/Stamper-Labs/zco-tournaments-api/commit/fd959d3cfcc5fc3752c64f25f07647d9f9b40110))
+* core flows version ([64b2bad](https://github.com/Stamper-Labs/zco-tournaments-api/commit/64b2badd07ac572408d11f5cfe444c25f7c3764a))
+* move to core flows 2.1.1 ([4090b6c](https://github.com/Stamper-Labs/zco-tournaments-api/commit/4090b6c333f16d3aeba5c09add4788e7cb34adf4))
+* quotes ([d034850](https://github.com/Stamper-Labs/zco-tournaments-api/commit/d0348506f0439c5782f582cc375e17b66d5b4c1e))
+* quotes ([0dce9dd](https://github.com/Stamper-Labs/zco-tournaments-api/commit/0dce9dd9a23e976591ba1c5cb9e7f73583b52885))
+* quotes ([1fa3de9](https://github.com/Stamper-Labs/zco-tournaments-api/commit/1fa3de9b20cedda14a19859fde257de146acb58d))
+
+
+### Features
+
+* bump to core-flows 2.1.0 ([22ae0c7](https://github.com/Stamper-Labs/zco-tournaments-api/commit/22ae0c7dd76aa91ae7ea83217ea887bc62284836))
+
 # 1.0.0 (2025-12-11)
 
 
