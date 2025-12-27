@@ -11,6 +11,9 @@ permissions:
 
 jobs:
   release-api:
-    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-build-pipe.yml@v2.1.6
+    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-build-pipe.yml@v2.1.7
     with:
       release_mode: "enabled"
+    secrets:
+      HSTAMPER_BOT_ID: ${{ secrets.HSTAMPER_BOT_ID }}
+      HSTAMPER_BOT_PRIVATE_KEY: ${{ secrets.HSTAMPER_BOT_PRIVATE_KEY }}
