@@ -10,10 +10,12 @@ permissions:
   contents: write
 
 jobs:
-  release-api:
-    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-build-pipe.yml@v2.1.7
+  release:
+    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-build-pipe.yml@v2.2.0
+    secrets: inherit
     with:
       release_mode: "enabled"
-    secrets:
-      HSTAMPER_BOT_ID: ${{ secrets.HSTAMPER_BOT_ID }}
-      HSTAMPER_BOT_PRIVATE_KEY: ${{ secrets.HSTAMPER_BOT_PRIVATE_KEY }}
+  distribute:
+    needs: release
+    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-ship-pipe.yml@v2.2.0
+    secrets: inherit
