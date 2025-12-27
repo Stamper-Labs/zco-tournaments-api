@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Stamper-Labs/zco-tournaments-api/compare/v1.1.0...v1.1.1) (2025-12-27)
+
+
+### Bug Fixes
+
+* distribute to docker ([45ae1cc](https://github.com/Stamper-Labs/zco-tournaments-api/commit/45ae1cc0c0d73e16c9e19710db7092bb916890c5))
+
 # [1.1.0](https://github.com/Stamper-Labs/zco-tournaments-api/compare/v1.0.0...v1.1.0) (2025-12-27)
 
 
