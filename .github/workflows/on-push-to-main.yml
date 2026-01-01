@@ -10,8 +10,8 @@ permissions:
   contents: write
 
 jobs:
-  zco-tournaments-api:
-    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-wf.yml@v3.0.0
+  CI:
+    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-wf.yml@v3.0.1
     secrets: inherit
     with:
-      mode: "release"
+      mode: "distribute"
