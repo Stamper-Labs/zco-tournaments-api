@@ -1,3 +1,11 @@
+## [1.1.5](https://github.com/Stamper-Labs/zco-tournaments-api/compare/v1.1.4...v1.1.5) (2026-01-01)
+
+
+### Bug Fixes
+
+* vulnerability depsreported by trivy ([1e60417](https://github.com/Stamper-Labs/zco-tournaments-api/commit/1e60417e32abab9b1be2929fe24769de68b84075))
+* vulnerability depsreported by trivy ([efd7046](https://github.com/Stamper-Labs/zco-tournaments-api/commit/efd7046c0818066bfe82db797416a4e2d4a61960))
+
 ## [1.1.4](https://github.com/Stamper-Labs/zco-tournaments-api/compare/v1.1.3...v1.1.4) (2026-01-01)
 
 
