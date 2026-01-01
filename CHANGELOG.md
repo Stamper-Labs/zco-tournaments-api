@@ -1,3 +1,12 @@
+## [1.1.4](https://github.com/Stamper-Labs/zco-tournaments-api/compare/v1.1.3...v1.1.4) (2026-01-01)
+
+
+### Bug Fixes
+
+* move to core-flows 3.0.1 ([f7b11d9](https://github.com/Stamper-Labs/zco-tournaments-api/commit/f7b11d9013e068ca555b2149b3e8c93cd6b11924))
+* move to core-flows 3.0.2 ([410b104](https://github.com/Stamper-Labs/zco-tournaments-api/commit/410b104fccbc53fa08786c83286cb07459204f4f))
+* vulnerability deps ([6d78e42](https://github.com/Stamper-Labs/zco-tournaments-api/commit/6d78e420a1a1886d6931ab611736619f065823d7))
+
 ## [1.1.3](https://github.com/Stamper-Labs/zco-tournaments-api/compare/v1.1.2...v1.1.3) (2026-01-01)
 
 
