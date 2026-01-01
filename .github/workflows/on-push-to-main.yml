@@ -14,4 +14,4 @@ jobs:
     uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-wf.yml@v3.0.0
     secrets: inherit
     with:
-      mode: "build"
+      mode: "release"
