@@ -10,12 +10,8 @@ permissions:
   contents: write
 
 jobs:
-  release:
-    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-build-pipe.yml@v2.2.1
+  zco-tournaments-api:
+    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-wf.yml@v3.0.0
     secrets: inherit
     with:
-      release_mode: "enabled"
-  distribute:
-    needs: release
-    uses: Stamper-Labs/core-flows/.github/workflows/yarn-nodejs-ship-pipe.yml@v2.2.1
-    secrets: inherit
+      mode: "build"
