@@ -79,10 +79,5 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  },
-  "resolutions": {
-    "qs": "^6.14.1",
-    "cross-spawn": "^7.0.5",
-    "glob": "^10.5.0"
   }
 }
